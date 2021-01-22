@@ -34,7 +34,7 @@ ul > li{
 
 .hero{
     height: 100vh;
-    min-height: 650px;
+    /* min-height: 650px; */
     background: url('./img/bg/hero.jpg') center center / cover no-repeat;
     position: relative;
     margin-bottom: 130px;
@@ -197,6 +197,10 @@ ul > li{
 
 .fade-slider__item--style--presents{
     background-image: url("./img/content/hero/slider_pic_3.png");
+}
+
+.fade-slider--product__text .lined-text{
+    font-size: 40px;
 }
 
 .fade-slider__text{
@@ -596,4 +600,89 @@ ul > li{
 .socials__icon{
     width: 100%;
     height: 100%;
+}
+
+.products__header{
+    height: 200px;
+    overflow: hidden;
+}
+
+.tabs-container{
+    height: 300px;
+    background: #ffc92f;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 1%;
+}
+
+.tabs-inner{
+    height: 100%;
+    width: 100%;
+    background: #fcf5e6;
+}
+
+.tabs-content{
+    display: flex;
+    height: 100%;
+}
+
+.tabs-item.active{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tabs-item{
+    display: none;
+}
+
+.tab-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs-desk{
+    padding: 40px 40px 45px 30px;
+}
+
+.tabs-point{
+    display: flex;
+    align-items: center;
+}
+
+.tabs-point__icon{
+    width: 30px;
+    height: 35px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
+
+.tabs-point__icon:last-child{
+    margin-bottom: 0;
+}
+
+.tabs-point__text{
+    font-size: 15px;
+}
+
+.tabs-desk{
+    width: 340px;
+    border-right: 1px solid grey;
+}
+
+.tabs-text{
+    font-family: "Roboto", Arial, sans-serif;
+    text-align: justify;
+    padding: 50px;
+    width: 745px;
+}
+
+.tabs-text > p {
+    font-size: 14px;
+}
+
+.hurley-logo{
+    height: 60px;
+    width: 240px;
 }
